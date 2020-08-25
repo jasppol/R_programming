@@ -26,6 +26,19 @@ print(y)
 z <- vector("numeric", length =10)
 print(z)
 
+##creating a vector objects with c(oncatenate)
+a <- c('this','is','a','test')
+
+##cast certain formats
+b <- 1:5
+class(b)
+as.character(b)
+as.integer(b)
+as.logical(b)
+
+##creating a list
+c <-list(1:4, 'derp', TRUE)
+print(c)
 
 
 
